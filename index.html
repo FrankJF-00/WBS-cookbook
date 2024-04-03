@@ -14,33 +14,57 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container text-center ">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="d-flex mx-auto justify-content-between align-items-center ms-1 mt-0 px-2">
+          <a><img src="./Lustige Logos/pngwing.com.png" class="img-fluid w-50 p-3" alt="Chef Ikone"></a>
           
-          <div class="row row-cols-10">
-            <div class="col-2 container-fluid">
-              <a class="navbar-brand" href="#">Kochbuch</a>
-            </div>
-            <div class="col-2">
-              <img src="./Lustige Logos/pngwing.com.png" class="img-fluid w-50 p-3" alt="Chef Ikone">
-            </div>
-            <div class="col-8">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Wähle deine kategorie</option>
-                <option value="2">Fleischgerichte</option>
-                <!-- <option value="2">Kuchen</option> -->
-                <option value="3">Vegetarische Küche</option>
-                <option value="4">Fischgerichte</option>
-                <option value="6">Meeresfrüchte</option>
-                <!-- <option value="5">Salad</option> -->
-                <option value="1">Cocktails</option>
-                <option value="5">Bockwurst mit Senf</option>
-              </select>
-            </div>
-            <div class="col">
-              User Navigation
-            </div>
-          </div>
+          <label for="hr-select">Your favorite food </label> <br />
+
+          <select name="foods" id="hr-select">
+            <option value="">Choose a food</option>
+            <hr />
+            <optgroup label="Cocktails">
+              <option value="apple">Apples</option>
+              <option value="banana">Bananas</option>
+            </optgroup>
+            <hr />
+            <optgroup label="Fleischgerichte">
+              <option value="artichoke">Artichokes</option>
+              <option value="broccoli">Broccoli</option>
+            </optgroup>
+            <hr />
+            <optgroup label="Vegetarische Küche">
+              <option value="beef">Beef</option>
+              <option value="chicken">Chicken</option>
+            </optgroup>
+            <hr />
+            <optgroup label="Fischgerichte">
+              <option value="cod">Cod</option>
+              <option value="haddock">Haddock</option>
+            </optgroup>
+            <optgroup label="Bockwurst mit Senf">
+              <option value="cod">Cod</option>
+              <option value="haddock">Haddock</option>
+            </optgroup>
+            <optgroup label="Meeresfrüchte">
+              <option value="cod">Cod</option>
+              <option value="haddock">Haddock</option>
+            </optgroup>
+            <optgroup label="Torten & Kuchen">
+              <option value="cod">Cod</option>
+              <option value="haddock">Haddock</option>
+            </optgroup>
+            <optgroup label="Antipasti">
+              <option value="cod">Cod</option>
+              <option value="haddock">Haddock</option>
+            </optgroup>
+            <optgroup label="Salat">
+              <option value="cod">Cod</option>
+              <option value="haddock">Haddock</option>
+            </optgroup>
+          </select>
+          
+          User Navigation Panel
         </div>
       </nav>
     </header>
