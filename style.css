@@ -7,7 +7,7 @@ main {
   position: fixed;
   top: 0;
   width: 100%;
-  filter: grayscale(1);
+  filter: brightness(30%);
 }
 .gallery {
   align-items: center;
