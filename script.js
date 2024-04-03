@@ -6,3 +6,9 @@ recipeChoice.addEventListener("change", () => {
   gallery.style = "display: none!important;";
   iframe.src = recipeChoice.value;
 });
+
+iframe.onload = function () {
+  frame.style.height = frame.contentWindow.document.body.scrollHeight + "px";
+
+  frame.style.width = frame.contentWindow.document.body.scrollWidth + "px";
+};
