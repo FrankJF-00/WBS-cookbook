@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-:root {
-  /* --bs-secondary-color: #fff; */
-}
+/* :root {
+  --bs-secondary-color: #fff;
+} */
 body {
   background-color: black;
 }
