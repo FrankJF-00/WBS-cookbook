@@ -7,20 +7,28 @@
 /* :root {
   --bs-secondary-color: #fff;
 } */
-body {
-  background-color: black;
+main {
+  position: relative;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.bg-img {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  filter: grayscale(1);
 }
 .gallery {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 2rem;
 }
-.gallery-item {
-  margin: 1rem;
-}
+/* .gallery-item {
+  margin-bottom: 1rem;
+} */
 .figure {
   width: 30rem;
   height: 30rem;
