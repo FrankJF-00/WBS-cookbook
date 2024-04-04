@@ -21,22 +21,22 @@
   </head>
   <body class="bg-black">
     <!-- <img class="bg-img" src="img/incredients.avif" alt="" /> -->
-    <header>
-      <nav class="navbar text-black">
+    <header class="header">
+      <nav class="navbar bg-dark text-white m-0 p-0 ">
         <div
-          class="d-flex mx-auto justify-content-between align-items-center m-0 p-0"
-        >
-          <div id="home" class="m-0 p-0">
-            <a href="#"
-              ><img
-                src="./Lustige Logos/pngwing.com.png"
-                class="img-fluid w-50 p-3"
-                alt="Chef Ikone"
-            /></a>
-          </div>
+          class="d-flex container-fluid">
+            <div>
+              <a href="#"
+                ><img
+                  src="./Lustige Logos/pngwing.com.png"
+                  class="img-fluid w-25 p-1"
+                  alt="Chef Ikone"
+              /></a>
+            </div>
+          
           <div>
-            <label for="recipe-choice">Your favorite food </label> <br />
-            <select id="recipe-choice" name="foods">
+            <label class="p-2 fs-4 text fw-bold" for="hr-select">Your favorite food </label> <br />
+            <select class="form-select" id="recipe-choice" name="foods" id="hr-select">
               <option>Choose a food</option>
               <hr />
               <optgroup label="Cocktails">
@@ -95,7 +95,8 @@
           </div>
           </div>
           <div>
-            <button>Sign In</button>
+            <button type="button" class="btn btn-outline-info btn-lg">Sign In</button>
+            <button type="button" class="btn btn-outline-success btn-lg">Sign Up</button>
           </div>
         </div>
         </div>
