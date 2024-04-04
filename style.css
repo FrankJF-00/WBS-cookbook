@@ -2,7 +2,6 @@ nav {
   background-image: url("img/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  filter: grayscale(0.6);
 }
 main {
   position: relative;
@@ -68,6 +67,7 @@ main {
 
 footer {
   background-color: #0a0a0a;
+}
 #iframe {
   display: flex;
   visibility: hidden;
