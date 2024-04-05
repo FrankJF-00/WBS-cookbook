@@ -7,7 +7,5 @@ portions.addEventListener("change", () => {
     let text = x.innerText;
     x.innerText = (text / currentPortions) * portions.value;
   }
-    currentPortions = portions.value;
-  }
-
+  currentPortions = portions.value;
 });
