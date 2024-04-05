@@ -88,10 +88,20 @@
     <br />
     <section class="d-flex container justify-content-around">
       <section class="container">
-        <table class="table table-striped">
+        <table class="table table-striped ">
           <thead>
             <tr>
-              Portion Fur 4 Personen
+              <h4>
+                Portion für
+                <input
+                  type="number"
+                  name="portions"
+                  id="portions"
+                  value="4"
+                  min="1"
+                />
+                Personen
+              </h4>
             </tr>
             <tr>
               <th>Menge</th>
@@ -100,35 +110,35 @@
           </thead>
           <tbody>
             <tr>
-              <td>1 ½ kg</td>
+              <td><span class="incredients">1.5</span> kg(s)</td>
               <td>Schweineschulter oder Schweinebauch, mit Schwarte</td>
             </tr>
             <tr>
-              <td>1 m.-große</td>
+              <td><span class="incredients">1</span> m.-große</td>
               <td>Karotte(n)</td>
             </tr>
             <tr>
-              <td>1 Stange/n</td>
+              <td><span class="incredients">1</span> Stange(n)</td>
               <td>Lauch</td>
             </tr>
             <tr>
-              <td>1 kleine</td>
+              <td><span class="incredients">1</span> kleine</td>
               <td>Zwiebel(n)</td>
             </tr>
             <tr>
-              <td>1 Zehe/n</td>
+              <td><span class="incredients">1 </span>Zehe(n)</td>
               <td>Knoblauch</td>
             </tr>
             <tr>
-              <td>1 Flasche</td>
+              <td><span class="incredients">1</span> Flasche(n)</td>
               <td>Weizenbier</td>
             </tr>
             <tr>
-              <td>1 Würfel</td>
+              <td><span class="incredients">1</span> Würfel(n)</td>
               <td>Bratensaft</td>
             </tr>
             <tr>
-              <td>2 EL</td>
+              <td><span class="incredients">2</span> EL</td>
               <td>Sauerrahm</td>
             </tr>
             <tr>
@@ -181,5 +191,6 @@
       </table>
       </section>
     </section>
+    <script src="./linsen.js"></script>
   </body>
 </html>
