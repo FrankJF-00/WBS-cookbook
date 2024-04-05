@@ -1,79 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Mojito</title>
-        <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-          crossorigin="anonymous"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-          crossorigin="anonymous"
-          referrerpolicy="no-referrer"
-        />
-        <link rel="stylesheet" href="style.css" />
-      </head>
-<body>
-    <div class="container">
-        <table class="table table-striped table-hover">
-            <h2 class="fs-1">Tequila-Sunrise</h2>
-            <img src="./Rezepte+Fotos/Cocktail_Fotos/Cocktail_Tequila Sunrise.png" alt="Tequila-Sunrise" width="60%">
-            <br>
-            <thead>
-                
-                <tr>
-                   <strong>Für jede Party</strong>
-                </tr>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mojito</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Abstand oben -->
+    <br />
+    <br />
+    <!-- Überschrift und Aufmacher mittig -->
+    <h1 style="text-align: center" ; class="text-danger">Tequila Sunrise</h1>
+    <br />
+    <h4 style="text-align: center">Erfrischend lecker</h4>
+    <br />
+    <br />
+    <br />
 
-                <tr class="table-primary">
-                    <th class="text-decoration-underline">Menge</th>
-                    <th class="text-decoration-underline">Zutaten</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>4 cl  </td>
-                    <td>Tequila, weiß</td>
-                </tr>
-                <tr>
-                    <td>15 cl </td>
-                    <td>Orangensaft </td>
-                </tr>
-                <tr>
-                    <td>1 cl</td>
-                    <td>Grenadine</td>
-                </tr>
-                <tr>
-                    <td>Glas auffüllen</td>
-                    <td>Eiswürfel/Crushed Eis  </td>
-                </tr>
-            </tbody>
+    <section class="row">
+      <!-- Abstand linker Seitenrand -->
+      <section class="col-1"></section>
+
+      <!-- Foto -->
+      <section class="col-7">
+        <img
+          src="./Rezepte+Fotos/Cocktail_Fotos/Cocktail_Tequila Sunrise.png"
+          alt="Tequila-Sunrise"
+          width="100%"
+        />
+
+        <br />
+        <br />
+        <h4>Zubereitung</h4>
+        <ol>
+          <li>Eiswürfel in ein Longdrinkglas geben.</li>
+          <br />
+          <li>Tequila hinzugießen.</li>
+          <br />
+          <li>Mit Orangensaft auffüllen.</li>
+          <br />
+          <li>Einen Schuss Grenadine dazugeben.</li>
+          <br />
+          <li>
+            Nur so viel umrühren, dass man den "Sunrise" (Sonnenaufgang) noch im
+            Glas erkennen kann.
+          </li>
+          <br />
+          <li>Das alkoholhaltige Mischgetränk, in den Körper schütten.</li>
+        </ol>
+      </section>
+      <br />
+
+      <section class="col-3">
+        <!-- Zutaten Tabelle -->
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <h4>
+                Portion für
+                <input
+                  type="number"
+                  name="portions"
+                  id="portions"
+                  value="1"
+                  min="1"
+                />
+                Personen
+              </h4>
+            </tr>
+            <tr class="table-primary">
+              <th>Menge</th>
+              <th>Zutaten</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-danger">
+              <td><span class="incredients">1/2</span></td>
+              <td>Limette(n), in 4 Stücke geschnitten</td>
+            </tr>
+            <tr>
+              <td><span class="incredients">1</span> Zweig/e</td>
+              <td>Pfefferminz</td>
+            </tr>
+            <tr class="table-danger">
+              <td><span class="incredients">1</span> EL</td>
+              <td>Rohrzucker, hell</td>
+            </tr>
+            <tr>
+              <td><span class="incredients">6</span> cl</td>
+              <td>Rum, weißer</td>
+            </tr>
+            <tr class="table-danger">
+              <td><span class="incredients">6</span></td>
+              <td>Eiswürfel</td>
+            </tr>
+            <tr>
+              <td><span class="incredients">3</span> dl</td>
+              <td>Mineralwasser</td>
+            </tr>
+          </tbody>
         </table>
-        <br>
-        <div class="tequila-sunrise-anleitung">
-            <h2> <u>Zubereitung:</u></h2>
-            <br>
-            <ol>
-                <li>Eiswürfel in ein Longdrinkglas geben.</li><br>
-                <li>Tequila hinzugießen.</li><br>
-                <li>Mit Orangensaft auffüllen.</li><br>
-                <li>Einen Schuss Grenadine dazugeben.</li><br>
-                <li>Nur so viel umrühren, dass man den "Sunrise" (Sonnenaufgang) noch im Glas erkennen kann.</li><br>
-                <li>Das alkoholhaltige Mischgetränk, in den Körper schütten.</li>
-            </ol>
-            <div class="aufwand">
-            <h2><u>Aufwand:</u></h2>
-            <br>
-            <p><strong>Arbeitszeit  &nbsp;</strong>ca. 5 minuten</p>
-            <p><strong>Gesamtzeit  &nbsp;</strong>ca. 5 minuten</p>
-            <p><strong>Schwierigkeitsgrad  &nbsp;</strong>normal</p>
-        </div>
-    </div>
-</body>
+        <br />
+        <br />
+        <br />
+        <table class="table table-striped">
+          <h4>Aufwand</h4>
+          <tbody>
+            <tr class="table-danger">
+              <td><strong>Arbeitszeit:</strong></td>
+              <td>ca. 5 Minuten</td>
+            </tr>
+            <tr>
+              <td><strong>Gesamtzeit:</strong></td>
+              <td>ca. 5 Minuten</td>
+            </tr>
+            <tr class="table-danger">
+              <td><strong>Schwierigkeitsgrad:</strong></td>
+              <td>normal</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+  </body>
 </html>
