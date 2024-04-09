@@ -9,3 +9,11 @@ portions.addEventListener("change", () => {
   }
   currentPortions = portions.value;
 });
+
+document.getElementById("shareBtn").addEventListener("click", function () {
+  alert("This is the address of the website");
+});
+
+// function shareBtn() {
+//   alert("This is the address of the website"); simpler Version
+// }
