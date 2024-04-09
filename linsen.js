@@ -11,13 +11,9 @@ portions.addEventListener("change", () => {
 });
 
 document.getElementById("shareBtn").addEventListener("click", function () {
-  alert(url);
+  alert(`This is the address of the website: ${window.location}`);
 });
-const url = getCurrentURL();
-function getCurrentURL() {
-  return window.location.href;
-}
 
 // function shareBtn() {
-//   alert("This is the address of the website"); simpler Version
+//   alert(`This is the address of the website: ${window.location}); simpler Version
 // }
