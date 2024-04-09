@@ -11,8 +11,12 @@ portions.addEventListener("change", () => {
 });
 
 document.getElementById("shareBtn").addEventListener("click", function () {
-  alert("This is the address of the website");
+  alert(url);
 });
+const url = getCurrentURL();
+function getCurrentURL() {
+  return window.location.href;
+}
 
 // function shareBtn() {
 //   alert("This is the address of the website"); simpler Version
